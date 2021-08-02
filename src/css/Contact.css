@@ -1,5 +1,5 @@
 .contact-container{
-  width: 100%;
+  max-width: 100%;
   margin: 10rem auto;
   color: var(--primary-clr);
   text-align: center;
@@ -22,6 +22,10 @@
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
 }
 
+form{
+  width: 100%;
+  margin: auto;
+}
 .form-group{
   width: 100%;
   margin: 1rem auto;
