@@ -1,13 +1,40 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root{
+  --primary-clr :rgb(95, 22, 129);
+  --secondary-clr:#F1F4FFFF ;
+  --secondary-clr-1:#F1F4FFFF;
+}
+*{
+  font-family:"nunito",sans-serif;
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+}
+body {
+  background: var(--secondary-clr-1);
+  font-family: "nunito";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+ }
+
+ body::-webkit-scrollbar {
+  width: 1em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-clr);
+  outline: 1px solid slategrey;
+  border-radius: 5px;
 }

@@ -1,0 +1,23 @@
+.footer-container{
+  width: 100%;
+  height: 100%;
+  background: var(--primary-clr);
+  color: var(--secondary-clr);
+  text-align: center;
+}
+
+.social-media-container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.social-media-container a{
+display: inline-block;
+margin-right: 1rem;
+margin-top: 1rem;
+}
+
+p{
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}

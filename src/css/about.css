@@ -1,0 +1,105 @@
+.about{
+  max-width: 100%;
+  padding: 30px;
+  display: grid;
+  margin: auto;
+  text-align: center;
+  color: var(--primary-clr);
+}
+
+
+
+
+
+
+
+.about > h1{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 0;
+  margin-bottom: 0.6rem;
+}
+
+.about > h1 b{
+  color: var(--primary-clr);
+}
+
+.about-underline{
+  background: var(--primary-clr);
+  width: 80px;
+  margin: auto;
+  height: 4px;
+  margin-top: 0;
+
+}
+
+.about-content{
+  width: 100%;
+  margin: 2rem auto;
+  display: grid;
+}
+
+.about-image{
+  width: 60%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid var(--primary-clr);
+  object-fit: cover;
+  
+}
+
+.about-text{
+  margin-top: 2rem;
+  color: var(--primary-clr);
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+@media(min-width:960px){
+  .about-content{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    max-height: 400px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    
+  }
+
+  .about-image{
+    /* margin-top: 1.5rem; */
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid var(--primary-clr);
+    height: 100%;
+    max-height: 500px;
+  }
+
+  .about-text{
+    text-align: left;
+    padding: 0;
+    /* max-width: 500px; */
+  }
+}
+
+.carousel-container{
+  width: 100%;
+  margin: 4rem auto;
+ 
+}
+
+.skills-icon{
+  margin-bottom: 2.5rem;
+}
+
+.skills-icon h1{
+  color: var(--primary-clr);
+}
+
+.skills-icon span{
+  display: inline-block;
+  font-size: 5rem;
+  color: var(--primary-clr);
+  cursor: pointer;
+}
