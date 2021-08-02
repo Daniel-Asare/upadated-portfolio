@@ -5,6 +5,7 @@
   margin: auto;
   text-align: center;
   color: var(--primary-clr);
+  min-height: 150vh;
 }
 
 
@@ -37,6 +38,7 @@
   width: 100%;
   margin: 2rem auto;
   display: grid;
+  max-height: 750px;
 }
 
 .about-image{
@@ -54,7 +56,7 @@
   color: var(--primary-clr);
   font-weight: 900;
   letter-spacing: 1px;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 @media(min-width:960px){
@@ -62,7 +64,7 @@
     width: 80%;
     margin: auto;
     margin-top: 3rem;
-    max-height: 400px;
+    max-height: 500px;
     grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
     
   }
@@ -83,9 +85,14 @@
   }
 }
 
+
+/* .skills-container{
+  width: 100%;
+  margin: 3rem auto;
+} */
 .carousel-container{
   width: 100%;
-  margin: 4rem auto;
+  margin: 3rem auto;
  
 }
 
